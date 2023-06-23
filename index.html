@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/output.css">
+    <title>recrear pagina con tailwind css</title>
+</head>
+
+<body>
+    <header class="">
+        <nav class="bg-slate-800 flex justify-between items-center p-3">
+            <div class="logo">
+                <img src="src/assets/img/logo.png" alt="logo mario" class="w-16">
+            </div>
+
+            <button class="text-white font-semibold">
+                Menu
+            </button>
+        </nav>
+
+        <section class="bg-[url('/src/assets/img/hero.jpg')] h-60 bg-cover bg-right"></section>
+
+        <section class="bg-white py-10 flex flex-col gap-3 items-center">
+            <a href="#"
+                class="capitalize py-4  inline-block text-center bg-black text-white w-5/6 rounded-3xl text-xl font-bold border-8 border-black hover:bg-slate-100 hover:text-black hover:border-gray-300 hover:border-8">
+                buy now
+            </a>
+
+            <a href="#"
+                class="capitalize py-4  inline-block text-center bg-red-500 text-white w-5/6 rounded-3xl text-xl font-bold border-8 border-red-500 hover:bg-slate-100 hover:text-black hover:border-gray-300 hover:border-8">
+                watch the trailer
+            </a>
+        </section>
+
+    </header>
+
+    <main class="bg-[url('/src/assets/img/pattern-characters-red.png')] py-40 px-12">
+
+        <img src="src/assets/img/character-l.png" alt="" class="object-cover">
+
+        <div class="bg-white rounded-xl overflow-hidden">
+            <video src="src/assets/videos/video01.mp4" autoplay="true"></video>
+
+            <div class="text-center">
+                <h3 class="text-4xl font-bold my-8">
+                    Play together
+                </h3>
+
+                <p class="text-lg mb-4 px-1">Work with (or against) your friends and family*</p>
+
+                <div class="flex justify-center">
+
+                    <a href="#"
+                        class="capitalize py-2  inline-block text-center bg-red-500 text-white w-5/6 rounded-3xl text-md font-bold border-4 border-red-500 hover:bg-slate-100 hover:text-black hover:border-gray-300 hover:border-4">
+                        watch the trailer
+                    </a>
+                </div>
+            </div>
+
+            <div class="px-3 pb-3 flex justify-between mt-8">
+                <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+                <div class="w-3 h-3 bg-blue-600 rounded-full"></div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
+
+</html>
